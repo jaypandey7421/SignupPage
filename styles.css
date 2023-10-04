@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;600&family=Ubuntu+Condensed&display=swap');
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Ubuntu Condensed', sans-serif; */
+}
+.super-parrent{
+    background: linear-gradient(90deg, rgba(85,14,109,1) 50%, rgba(195,15,167,1) 50%);
+
+}
+.parrent{
+    
+    color: #fff;
+    /* padding: 4vh; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10%
+}
+/*Styles for left-child*/
+.logo{
+    font-size: 1.5rem;
+}
+.message{
+    font-size: 3rem;
+    margin: 12% auto;
+}
+.address{
+    font-size: larger;
+    margin: 3% auto;
+}
+
+
+/* Styles for right-child */
+.right-child{
+    background-color: #fff;
+    color:rgba(85,14,109) ;
+    border-radius: 30px;
+    height: 70vh;
+    width: 27vw;
+    text-align: center;
+    /* z-index: 5; */
+    position: relative;
+}
+.form{
+    z-index: 3;
+}
+h4{
+    margin: 8% auto 9% 10%;
+    font-size: 2rem;
+    text-align: left    ;
+}
+a{
+    text-decoration: none;
+    font-size:11px;
+    color:#9355a8;
+    margin: 20px;
+}
+.text-fill{
+    height:2rem;
+    width: 80%;
+    background-color: #e0dfe0;
+    border: 0 ;
+    border-radius: 15px;
+    margin: 9px auto;
+}
+button{
+    margin: 22px auto;
+    height:2rem;
+    width: 80%;
+    border: 0 ;
+    border-radius: 15px;
+    background-color: rgb(85,14,109);
+    color: #fff;
+    font-size: larger;
+    font-weight: bold;
+    /* margin: 10px; */
+}
+.checkbox{
+     margin-right: 38%;
+}
+label{
+    font-size: 11px;
+}
+
+/* Styles for backgrounds */
+.background{
+    position: absolute;
+    background-color: rgb(255, 255, 255,0.5);
+    border: 0;
+    border-radius: 30px;
+}
+#background-1{
+    height: 57vh;
+    width: 30vw;
+    top: 40px;
+    right: -19px;
+    z-index: 2;
+}
+#background-2{
+    height: 49vh;
+    width: 34vw;
+    top: 60px;
+    right: -42px;
+    z-index: 1;
+}
